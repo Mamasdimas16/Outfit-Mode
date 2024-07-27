@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #e6f0ff;
+}
+
+header {
+    background-color: #0099ff;
+    color: white;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.menu-item {
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.menu-item p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+#product-list {
+    padding: 20px;
+}
+
+footer {
+    background-color: #0099ff;
+    color: white;
+    padding: 10px;
+}
+/* Tambahan pada style.css */
+.back-to-main {
+    margin: 20px 0;
+}
+
+.back-button {
+    background-color: #0099ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.back-button:hover {
+    background-color: #007acc;
+}
+#menu {
+    margin: 20px 0;
+    display: flex;
+    
+    just
+justify-content: center;
+    
+  
+gap: 10px;
+}
+
+.menu-item {
+    background-color: #0099ff;
+    color: white;
+    padding: 10px 20px;
+    
+    text-decorati
+text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #007acc;
+    
+ 
+font-size: 1.2em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-item:hover {
+    background-color: white;
+    color: #0099ff;
+}
+
+footer {
+    
+    bac
+background-color: #0099ff;
+    color: white;
+    padding: 10px;
+}
+#menu {
+    margin: 20px 0;
+    
+    di
+display: flex;
+    justify-content: center;
+    
+  
+gap: 10px;
+}
+
+.menu-item {
+    
+    back
+background-color: #0099ff;
+    color: white;
+    
+    pa
+padding: 10px 20px;
+    text-decoration: none; /* Menghilangkan garis bawah */
+    border-radius: 5px;
+    border: 2px solid #007acc;
+    font-size: 1.2em;
+    
+  
+transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-item:hover {
+    
+    ba
+background-color: white;
+    
+  
+color: #0099ff;
+    text-decoration: none; /* Menghilangkan garis bawah saat hover */
+}
+
+footer {
+    
+    ba
+background-color: #0099ff;
+    
+    
+color: white;
+    padding: 10px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    display: inline-block;
+    width: 45%;
+    max-width: 200px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}.link-wa {
+    text-decoration: none; /* Menghilangkan garis bawah */
+    padding: 10px 20px; /* Jarak di dalam border, disesuaikan agar mirip dengan tombol lainnya */
+    border: 2px solid black; /* Border dengan ketebalan 2px dan warna hitam */
+    display: inline-block; /* Agar padding dan border terlihat */
+    border-radius: 5px; /* Membuat sudut border menjadi melengkung */
+    background-color: white; /* Latar belakang putih untuk menyesuaikan dengan desain */
+    color: black; /* Warna teks hitam */
+    margin-top: 10px; /* Jarak ke atas untuk memberi ruang dengan elemen sebelumnya */
+}
+
+
+
